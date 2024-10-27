@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmf5pacy1bg"]
+
+[ext_resource type="Script" path="res://Mod.gd" id="1_yos8c"]
+[ext_resource type="Texture2D" uid="uid://cbqbnrh8hngy7" path="res://3b285320109d67a5188e2daad5d4603d.png" id="2_xwihf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gd1co"]
+size = Vector2(36.9998, 94)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fegxr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xwihf")
+}],
+"loop": true,
+"name": &"fly",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xwihf")
+}],
+"loop": true,
+"name": &"swim",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xwihf")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 3.0
+}]
+
+[node name="Mod" type="RigidBody2D" groups=["mobs"]]
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_yos8c")
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6.49671e-05, 0.500083)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_gd1co")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0.187278, 0.749149)
+rotation = 3.14159
+scale = Vector2(0.22299, 0.248208)
+sprite_frames = SubResource("SpriteFrames_fegxr")
+animation = &"fly"
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

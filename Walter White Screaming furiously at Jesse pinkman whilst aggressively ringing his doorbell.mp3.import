@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c48voaf3car1r"
+path="res://.godot/imported/Walter White Screaming furiously at Jesse pinkman whilst aggressively ringing his doorbell.mp3-9c8346a0a093f7751765df6777935823.mp3str"
+
+[deps]
+
+source_file="res://Walter White Screaming furiously at Jesse pinkman whilst aggressively ringing his doorbell.mp3"
+dest_files=["res://.godot/imported/Walter White Screaming furiously at Jesse pinkman whilst aggressively ringing his doorbell.mp3-9c8346a0a093f7751765df6777935823.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

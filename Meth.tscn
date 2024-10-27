@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cnmxlbyaj036"]
+
+[ext_resource type="Script" path="res://Meth.gd" id="1_48imo"]
+[ext_resource type="Texture2D" uid="uid://c7yxh78o6ekpx" path="res://dgjvn08-679a2d2d-7715-4b6e-b470-8a9dd3946bca.png" id="1_ces1v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pkvos"]
+size = Vector2(28.8435, 41.0208)
+
+[node name="Meth" type="Area2D"]
+script = ExtResource("1_48imo")
+
+[node name="Dgjvn08-679a2d2d-7715-4b6e-b470-8a9Dd3946Bca" type="Sprite2D" parent="."]
+position = Vector2(1.0842e-19, 5.68434e-14)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_ces1v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.15774, 0.0606455)
+rotation = 0.20944
+shape = SubResource("RectangleShape2D_pkvos")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

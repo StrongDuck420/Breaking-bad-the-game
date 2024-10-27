@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://bii0bbew5x5u2"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_lvjsu"]
+[ext_resource type="Texture2D" uid="uid://d0k2ar56hjjna" path="res://jesse-2.png" id="2_1tnsv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gqook"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1tnsv")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_1tnsv")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xscat"]
+radius = 21.0
+height = 68.0
+
+[node name="player" type="Area2D"]
+script = ExtResource("1_lvjsu")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -1)
+scale = Vector2(0.0675872, 0.0337513)
+sprite_frames = SubResource("SpriteFrames_gqook")
+animation = &"up"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_xscat")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

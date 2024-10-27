@@ -1,0 +1,41 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1730028883
+3b285320109d67a5188e2daad5d4603d.png::CompressedTexture2D::4876145092622546464::1730025622::1730025623::1::::<><>::
+Breaking Bad Main Title Theme (Extended).mp3::AudioStreamMP3::8978036769586082063::1726647544::1726647545::1::::<><>::
+Design uden navn (1).png::CompressedTexture2D::220383635566599683::1730028883::1730028884::1::::<><>::
+Design uden navn.png::CompressedTexture2D::7791000421213724546::1730027038::1730027038::1::::<><>::
+Dgjvn08-679a2d2d-7715-4b6e-b470-8a9Dd3946Bca.gd::GDScript::-1::1727082639::0::1::::<>Sprite2D<>::
+dgjvn08-679a2d2d-7715-4b6e-b470-8a9dd3946bca.png::CompressedTexture2D::7069840153695077965::1727078274::1727078274::1::::<><>::
+export_presets.cfg::TextFile::-1::1727086359::0::1::::<><>::
+HUD .tscn::PackedScene::8265270476360387509::1730028815::0::1::::<><>::res://HUD.gd<>uid://bx8dwfyum7v7q::::res://fonts/Xolonium-Regular.ttf
+HUD.gd::GDScript::-1::1730027290::0::1::::<>CanvasLayer<>::
+icon.svg::CompressedTexture2D::6823713688655448944::1725869311::1725869317::1::::<><>::
+jesse-2.png::CompressedTexture2D::8936267219034707062::1730025202::1730025202::1::::<><>::
+Main.gd::GDScript::-1::1730028211::0::1::::<>Node<>::
+main.tscn::PackedScene::8020878558928879542::1730028815::0::1::::<><>::res://Main.gd<>uid://bii0bbew5x5u2::::res://player.tscn<>uid://cmf5pacy1bg::::res://mob.tscn<>uid://cnmxlbyaj036::::res://Meth.tscn<>uid://dp002dsfauo66::::res://HUD .tscn<>uid://djaavyj2wil2a::::res://Design uden navn.png<>uid://c48voaf3car1r::::res://Walter White Screaming furiously at Jesse pinkman whilst aggressively ringing his doorbell.mp3<>uid://dgg5tued3pghg::::res://yes-science.mp3
+Meth.gd::GDScript::-1::1730023650::0::1::::<>Area2D<>::
+Meth.tscn::PackedScene::167984855644341827::1730028815::0::1::::<><>::res://Meth.gd<>uid://c7yxh78o6ekpx::::res://dgjvn08-679a2d2d-7715-4b6e-b470-8a9dd3946bca.png
+mob.tscn::PackedScene::4867887267058224::1730028814::0::1::::<><>::res://Mod.gd<>uid://cbqbnrh8hngy7::::res://3b285320109d67a5188e2daad5d4603d.png
+Mod.gd::GDScript::-1::1726042594::0::1::::<>RigidBody2D<>::
+player.gd::GDScript::-1::1730025526::0::1::::<>Area2D<>::
+player.tscn::PackedScene::2965966225186081427::1730028814::0::1::::<><>::res://player.gd<>uid://d0k2ar56hjjna::::res://jesse-2.png
+Walter White Screaming furiously at Jesse pinkman whilst aggressively ringing his doorbell.mp3::AudioStreamMP3::6877742365734785321::1726647610::1726647610::1::::<><>::
+Walter_White2.webp::CompressedTexture2D::9211141361255446715::1726647074::1726647075::1::::<><>::
+yes-science.mp3::AudioStreamMP3::7594637876119584036::1730024303::1730024303::1::::<><>::
+::res://art/::1725869640
+enemyFlyingAlt_1.png::CompressedTexture2D::3685274598177475521::1725869349::1725869640::1::::<><>::
+enemyFlyingAlt_2.png::CompressedTexture2D::7637084734146772106::1725869349::1725869640::1::::<><>::
+enemySwimming_1.png::CompressedTexture2D::5542729605823430373::1725869349::1725869640::1::::<><>::
+enemySwimming_2.png::CompressedTexture2D::4484291866601125258::1725869349::1725869640::1::::<><>::
+enemyWalking_1.png::CompressedTexture2D::3141977902956727081::1725869349::1725869640::1::::<><>::
+enemyWalking_2.png::CompressedTexture2D::6727474470596079714::1725869349::1725869640::1::::<><>::
+gameover.wav::AudioStreamWAV::2883713050262658990::1725869349::1725869640::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::8363250356879438754::1725869349::1725869640::1::::<><>::
+playerGrey_up1.png::CompressedTexture2D::2123347587549448428::1725869349::1725869640::1::::<><>::
+playerGrey_up2.png::CompressedTexture2D::6895114801841335385::1725869349::1725869640::1::::<><>::
+playerGrey_walk1.png::CompressedTexture2D::6700743206199696416::1725869349::1725869640::1::::<><>::
+playerGrey_walk2.png::CompressedTexture2D::5479824775093224650::1725869349::1725869640::1::::<><>::
+::res://fonts/::1725869640
+FONTLOG.txt::TextFile::-1::1725869349::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1725869349::0::1::::<><>::
+Xolonium-Regular.ttf::FontFile::4069110292314109924::1725869349::1725869640::1::::<><>::
